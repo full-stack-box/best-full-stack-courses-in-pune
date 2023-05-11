@@ -789,24 +789,25 @@ p {
 ======================================================*/
 
 .single-slider{
-    padding-bottom: 300px;
+    padding-bottom: 60px;
 }
 
 .slider-cont{
     position: relative;
     z-index: 5;
 }
-.slider-cont h1{
-    font-size: 60px;
+.slider-cont h2{
+    font-size: 35px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     color: #fff;
     padding-bottom: 25px;
 }
 .slider-cont p{
-    font-size: 18px;
+    font-size: 15px;
     color: #fff;
-    font-weight: 600;
+    font-weight: 400;
+    text-shadow: black;
     padding-bottom: 50px;
 }
 .slider-cont ul {}
