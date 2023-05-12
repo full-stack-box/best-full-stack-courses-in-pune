@@ -3765,12 +3765,11 @@ p.form-message.error {
 
 .contact-address{
     background-color: #fff;
-    padding: 20px 50px 50px;
     border-radius: 5px;
 }
 
 .contact-address ul li{
-    padding-top: 30px;
+    padding-top: 15px;
 }
 .contact-address ul li .singel-address{
     display: -moz-flex;
@@ -3785,8 +3784,8 @@ p.form-message.error {
 }
 
 .contact-address ul li .singel-address .icon i{
-    width: 50px;
-    line-height: 50px;
+    width: 40px;
+    line-height: 40px;
     border-radius: 50%;
     border: 1px solid #07294d;
     color: #07294d;
