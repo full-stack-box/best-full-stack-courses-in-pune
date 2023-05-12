@@ -262,12 +262,12 @@ $(function() {
         autoplay: true,
         autoplaySpeed: 800,
         speed: 200,
-        slidesToShow: 4,
+        slidesToShow: 6,
         slidesToScroll: 1,
         arrows: false,
         responsive: [
         {
-          breakpoint: 1200,
+          breakpoint: 800,
           settings: {
             slidesToShow: 4,
             slidesToScroll: 1,
