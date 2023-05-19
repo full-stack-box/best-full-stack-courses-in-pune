@@ -68,6 +68,13 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    <style>
+        .ani {
+
+            animation: none !important;
+            -webkit-transition: none !important;
+        }
+    </style>
 </head>
 
 <body>
@@ -122,12 +129,12 @@
             </div> <!-- container -->
         </div> <!-- header logo support -->
 
-        <div class="navigation">
+        <div class="navigation .ani">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-10 col-md-10 col-sm-9 col-8">
-                        <nav class="navbar navbar-expand-lg">
-                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        <nav class="navbar navbar-expand-lg ani">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-interval="100"
                                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                 aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="icon-bar"></span>
@@ -142,7 +149,30 @@
                                     </li>
 
                                     <li class="nav-item">
-                                        <a href="courses.html">Courses</a>
+                                        <a href="./courses.html">Courses<button class="sub-nav-toggler"> <i
+                                                    class="fa fa-chevron-down"></i> </button></a>
+                                        <ul class="sub-menu">
+                                            <li><a
+                                                    href="/sub-pages/locations/full-stack-courses-in-pune-karvenagar.html">Full
+                                                    Stack Courses in Pune (Karvenagar)</a></li>
+                                            <li><a href="/sub-pages/locations/full-stack-courses-in-pune-kothrud.html">Full
+                                                    Stack Courses in Pune (Kothrud)</a></li>
+                                            <li><a href="/sub-pages/locations/full-stack-courses-in-pune-warje.html">Full
+                                                    Stack Courses in Pune (Warje)</a></li>
+                                            <li><a href="/sub-pages/locations/full-stack-courses-in-pune-deccan.html">Full
+                                                    Stack Courses in Pune (Deccan)</a></li>
+                                            <li><a
+                                                    href="/sub-pages/locations/full-stack-courses-in-pune-shivajinagar.html">Full
+                                                    Stack Courses in Pune (Shivajinagar)</a></li>
+                                            <li><a href="/sub-pages/locations/full-stack-courses-in-mumbai.html">Full
+                                                    Stack Courses in Mumbai</a></li>
+                                            <li><a href="/sub-pages/locations/full-stack-courses-in-nashik.html">Full
+                                                    Stack Courses in Nashik</a></li>
+                                            <li><a href="/sub-pages/locations/full-stack-courses-in-nagpur.html">Full
+                                                    Stack Courses in Nagpur</a></li>
+                                            <li><a href="/sub-pages/locations/full-stack-courses-in-satara.html">Full
+                                                    Stack Courses in Satara</a></li>
+                                        </ul>
                                     </li>
 
                                     <li class="nav-item">
@@ -174,11 +204,11 @@
 
     <!--====== Photos ======-->
 
-    <div class="col-md-12 pt-60 pb-120"
+    <!-- <div class="col-md-12 pt-60 pb-120"
         style="margin: 0 auto !important; max-width: 800px !important; min-width: 150px !important; height: auto;">
 
         <div class="section-title pb-25">
-            <h3 style="text-align: center; padding-bottom: 20px; margin: auto;">Our institute gallery</h3>
+            <h3 style="text-align: center; padding-bottom: 20px; margin: auto;">Our Institute Gallery</h3>
         </div>
 
         <div id="carouselExampleIndicators" class="carousel slide h-100 w-150" data-ride="carousel"
@@ -214,13 +244,49 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-    </div>
+    </div> -->
     <!--====== Photos ======-->
 
+    <!-- photo and video -->
+    <div class="section-title pt-40 pb-25">
+        <h3 style="text-align: center; padding-bottom: 20px; margin: auto;">Our Institute Gallery</h3>
+    </div>
+
+    <div class="row w-75 m-auto mb-5 h-auto">
+        
+        <div class="col-md-4 p-md-4 h-auto mb-3">
+            <img src="./images/images and video/IMG-20230513-WA0054.jpg" class="rounded w-100 h-100" alt="">
+        </div>
+        <div class="col-md-4 p-md-4 h-auto mb-3">
+            <img src="./images/images and video/IMG-20230513-WA0055.jpg" class="rounded w-100 h-100" alt="">
+        </div>
+        <div class="col-md-4 p-md-4 h-auto mb-3">
+            <img src="./images/images and video/IMG-20230513-WA0056.jpg" class="rounded w-100 h-100" alt="">
+        </div>
+        <div class="col-md-4 p-md-4 h-auto mb-3">
+            <img src="./images/images and video/IMG-20230513-WA0057.jpg" class="rounded w-100 h-100" alt="">
+        </div>
+        <div class="col-md-4 p-md-4 h-auto mb-3">
+            <img src="./images/images and video/IMG-20230513-WA0059.jpg" class="rounded w-100 h-100" alt="">
+        </div>
+        <div class="col-md-4 p-md-4 h-auto mb-3">
+            <img src="./images/images and video/IMG-20230513-WA0063.jpg" class="rounded w-100 h-100" alt="">
+        </div>
+        <div class="col-md-6 p-md-4 h-auto mb-3">
+            <img src="./images/images and video/IMG-20230513-WA0064.jpg" class="rounded w-100 h-100" alt="">
+        </div>
+        <div class="col-md-6 p-md-4 h-auto mb-3">
+            <img src="./images/images and video/IMG-20230513-WA0072.jpg" class="rounded w-100 h-100" alt="">
+        </div>
+
+    </div>
+
+
+    <!-- end photo and video section -->
     <!-- Carousel wrapper -->
 
 
-    
+
     <!-- Carousel wrapper -->
 
     <!--====== Test PART start ======-->
@@ -230,7 +296,7 @@
         <div class="col-lg-12 ">
             <div class="section-title pb-25" style="text-align: center;">
 
-                <h3>Reviews from placed students.</h3>
+                <h3>Reviews From Placed Students.</h3>
                 <p>Read about the success stories of our students.</p>
             </div> <!-- section title -->
         </div>
